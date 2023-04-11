@@ -1,0 +1,62 @@
+/* Header CSS */
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+/* Form Container CSS */
+.form{
+    padding-top: 100px;
+}
+/* Input Label CSS */
+.input-label{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+/* Input Field Text CSS */
+input[type="text"]{
+    font-size: 18px;
+    width: 50%;
+}
+/* Input Field CSS */
+.input{
+    display: flex;
+    justify-content: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+/* Background Image CSS */ 
+.background-image{
+    background-image: url(./assets/background-image.jpeg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+}
+/* Buttons CSS */
+.buttons{
+    display: flex;
+    justify-content: center;
+    /* color: white; */
+    /* Creates padding around both buttons */
+    padding: 10px;
+}
+/* Click Me Button */
+.button1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* Creates space on the right side of the button */
+    margin-right: 20px;
+}
+/* Reset Button */
+.button2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* Creates space on the left side of the button */
+    margin-left: 20px;
+}
